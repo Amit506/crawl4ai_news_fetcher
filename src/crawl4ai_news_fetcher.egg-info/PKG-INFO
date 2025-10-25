@@ -2,9 +2,9 @@ Metadata-Version: 2.4
 Name: crawl4ai-news-fetcher
 Version: 0.1.0
 Summary: A specialized news content fetcher with redirect resolution built on crawl4ai
-Home-page: https://github.com/yourusername/crawl4ai-news-fetcher
-Author: Your Name
-Author-email: your.email@example.com
+Home-page: https://github.com/Amit506/crawl4ai_news_fetcher
+Author: Amit Kumar
+Author-email: amitkumar50608@gmail.com
 Keywords: web-scraping,news,content-fetcher,redirect-resolver,crawl4ai
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Developers
