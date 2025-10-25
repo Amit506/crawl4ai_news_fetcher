@@ -6,8 +6,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="crawl4ai-news-fetcher",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Amit Kumar",
+    author_email="amitkumar50608@gmail.com",
     description="A specialized news content fetcher with redirect resolution built on crawl4ai",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -43,7 +43,7 @@ setup(
         ],
     },
     keywords="web-scraping, news, content-fetcher, redirect-resolver, crawl4ai",
-    url="https://github.com/yourusername/crawl4ai-news-fetcher",
+    url="https://github.com/Amit506/crawl4ai_news_fetcher",
        entry_points={
         'console_scripts': [
             'crawl4ai-install-browsers=crawl4ai_news_fetcher.install:install_browsers',
