@@ -1,0 +1,59 @@
+Metadata-Version: 2.4
+Name: crawl4ai-news-fetcher
+Version: 0.1.0
+Summary: A specialized news content fetcher with redirect resolution built on crawl4ai
+Home-page: https://github.com/yourusername/crawl4ai-news-fetcher
+Author: Your Name
+Author-email: your.email@example.com
+Keywords: web-scraping,news,content-fetcher,redirect-resolver,crawl4ai
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools>=45.0
+Requires-Dist: crawl4ai>=0.5.0
+Requires-Dist: httpx>=0.24.0
+Requires-Dist: beautifulsoup4>=4.12.0
+Requires-Dist: lxml>=4.9.0
+Requires-Dist: cssselect>=1.2.0
+Requires-Dist: playwright>=1.40.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: black>=23.0; extra == "dev"
+Requires-Dist: isort>=5.12; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Crawl4AI News Fetcher
+
+A specialized Python package for fetching news content with intelligent redirect resolution, built on top of [crawl4ai](https://github.com/unclecode/crawl4ai).
+
+## Features
+
+- **Smart Redirect Resolution**: Automatically resolves redirects from services like Google News, bit.ly, etc.
+- **Multi-method Resolution**: Uses HTTP, HTML parsing, and browser automation for robust redirect resolution
+- **Content Extraction**: Extracts clean markdown and HTML content from news articles
+- **Query-focused Filtering**: Uses BM25 algorithm to filter content based on user queries
+- **Async Support**: Fully asynchronous for high-performance scraping
+
+## Installation
+
+```bash
+pip install crawl4ai-news-fetcher

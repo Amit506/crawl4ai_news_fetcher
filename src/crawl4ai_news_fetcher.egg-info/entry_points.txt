@@ -1,0 +1,2 @@
+[console_scripts]
+crawl4ai-install-browsers = crawl4ai_news_fetcher.install:install_browsers
